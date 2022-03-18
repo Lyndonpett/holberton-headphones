@@ -40,4 +40,12 @@ git clone https://github.com/Lyndonpett/holberton-headphones
 * After the following steps, you should now be able to see the corresponding webpage open in your browser!
 
 ## Examples
+
+* Overview
 ![DesignOverview](./images/designoverview.jpg "DesignOverview")
+
+* Mobile
+![MobileView](./images/mobileView.png "Mobile View")
+
+* Desktop
+![DesktopView](./images/desktopView.png "Desktop View")
