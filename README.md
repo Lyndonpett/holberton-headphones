@@ -41,11 +41,11 @@ git clone https://github.com/Lyndonpett/holberton-headphones
 
 ## Examples
 
-* Overview
+### Overview
 ![DesignOverview](./images/designoverview.jpg "DesignOverview")
 
-* Mobile
+### Mobile
 ![MobileView](./images/mobileView.png "Mobile View")
 
-* Desktop
+### Desktop
 ![DesktopView](./images/desktopView.png "Desktop View")
