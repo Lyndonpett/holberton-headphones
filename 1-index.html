@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Holberton Headphones</title>
+    <meta name="description" content="This webpage is to create a design from scratch." />
+    <link rel="stylesheet" href="1-styles.css" />
+</head>
+
+<body>
+    <!--Skip ze links-->
+    <nav aria-label="Skip links">
+        <ul class="off-screen">
+            <li>
+                <a href="#a11y-primary-nav" class="skip-link">Skip to primary navigation</a>
+            </li>
+            <li>
+                <a href="#a11y-main-content" class="skip-link">Skip to main content</a>
+            </li>
+        </ul>
+    </nav>
+    <!--Header-->
+    <header class="header">
+        <div class="header-container">
+            <div class="header-logo">
+                <a href="#">
+                    <img src="./images/logo_headphones.png" alt="logo-headphones" width="200" height="42" />
+                </a>
+            </div>
+            <!--Header Nav-->
+            <input type="checkbox" class="menu-btn" id="menu-btn" />
+            <label for="menu-btn" class="menu-icon">
+				<span class="navicon"></span>
+			</label>
+            <nav class="navbar-menu" id="a11y-primary-nav" tabindex="-1">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="#">what we do</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">our results</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">contact us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="container">
+            <!--Hero Section-->
+            <section class="section-hero" id="a11y-main-content" tabindex="-1">
+                <div class="section-container">
+                    <div class="section-text">
+                        <h1>Lorem ipsum dolor set amet lorem ipsum</h1>
+                        <h2>Lorem ipsum dolor set amet lorem ipsum dolor set</h2>
+                        <a href="#" class="button hero-button">Call to action</a>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </header>
+
+    <!--Main-->
+    <main>
+
+        <!-- What We Do Section -->
+        <div class="section-what">
+            <div class="what-container">
+                <div class="section-text-what">
+                    <h1>What we do...</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    </p>
+                </div>
+                <div class="section-grid-what">
+                    <ul class="grid-list">
+                        <li class="element">
+                            <span class="icon section-image-1"></span>
+                            <div class="icon-text">
+                                <h2>Lorem ipsum</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </li>
+                        <li class="element">
+                            <span class="icon section-image-2"></span>
+                            <div class="icon-text">
+                                <h2>Lorem ipsum</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </li>
+                        <li class="element">
+                            <span class="icon section-image-3"></span>
+                            <div class="icon-text">
+                                <h2>Lorem ipsum</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </li>
+                        <li class="element">
+                            <span class="icon section-image-4"></span>
+                            <div class="icon-text">
+                                <h2>Lorem ipsum</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
