@@ -231,7 +231,7 @@ html {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 15rem;
+    padding-top: 40rem;
 }
 
 
@@ -480,7 +480,7 @@ a:active {
 
 .section-what {
     color: var(--color-black);
-    height: 55vh;
+    height: 48vh;
     margin-top: -2.3rem;
 }
 

@@ -231,7 +231,7 @@ html {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 15rem;
+    padding-top: 40rem;
 }
 
 
@@ -609,7 +609,7 @@ a:active {
 .section-form {
     color: var(--color-black);
     position: relative;
-    top: 30rem;
+    top: 50rem;
     width: 37rem;
     margin-left: auto;
     margin-right: auto;
@@ -654,7 +654,6 @@ input[type="email"] {
 
 @media screen and (min-width: 481px) and (max-width: 769px) {
     /* Base */
-
     html {
         font-size: 60%;
     }
@@ -670,12 +669,12 @@ input[type="email"] {
     .section-text {
         top: 15rem;
     }
-	
+
     .container {
         padding-top: 40rem;
     }
 
-	/* What We Do Section */
+    /* What We Do Section */
 
     .grid-list .element+.element {
         margin-left: 0rem;
@@ -704,7 +703,11 @@ input[type="email"] {
         padding-bottom: 5rem;
     }
 
-	/* Results Section */
+	.section-what {
+		height: 52vh;
+	}
+
+    /* Results Section */
 
     .section-results {
         padding-top: 0;
@@ -715,6 +718,10 @@ input[type="email"] {
     .results-container {
         padding-top: 0;
     }
+
+	.section-form {
+		top: 20rem;
+	}
 }
 
 
@@ -733,7 +740,7 @@ input[type="email"] {
     .header {
         background-position: 36%;
     }
-	
+
     .header-container {
         flex-wrap: wrap;
         flex-direction: row-reverse;
@@ -755,6 +762,7 @@ input[type="email"] {
     }
 
     .header .nav {
+
         flex-direction: column;
     }
 
@@ -817,7 +825,7 @@ input[type="email"] {
         padding-top: 13rem;
     }
 
-	/* What We Do Section */
+    /* What We Do Section */
 
     .section-text-what {
         position: relative;
@@ -851,8 +859,7 @@ input[type="email"] {
         padding-bottom: 5rem;
     }
 
-
-	/* Results Section */
+    /* Results Section */
 
     .section-text-results {
         position: relative;
@@ -889,4 +896,8 @@ input[type="email"] {
         margin-left: 1.25rem;
         margin-right: 3rem;
     }
+
+	.section-form {
+		top: 18rem;
+
 }
