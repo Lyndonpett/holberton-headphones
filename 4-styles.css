@@ -588,6 +588,7 @@ a:active {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+	padding-left: 0;	
 	padding-top: 14rem;
 }
 
@@ -724,7 +725,7 @@ input[type="email"] {
     }
 
     .container {
-        padding-top: 40rem;
+        padding-top: 15rem;
     }
 
 	/* What We Do Section */
@@ -907,7 +908,7 @@ input[type="email"] {
     }
 
     .section-what {
-        height: 155vh;
+        height: 140vh;
     }
 
     .grid-list .element+.element {
@@ -948,14 +949,6 @@ input[type="email"] {
         margin-top: -5rem;
     }
 
-    .grid-list-results .pentagon+.pentagon {
-        margin-left: 3.5rem;
-    }
-
-    .grid-list-results {
-        margin-top: 7.5rem;
-    }
-
 	/* Form */
 
     form {
@@ -976,7 +969,7 @@ input[type="email"] {
     }
 
     .section-form {
-        top: 15rem;
+        top: 25rem;
         width: 30rem;
     }
 
