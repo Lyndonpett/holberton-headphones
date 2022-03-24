@@ -231,7 +231,6 @@ html {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 15rem;
 }
 
 
@@ -458,7 +457,7 @@ a:active {
    ============================= */
 
 .section-text {
-    top: 30rem;
+    top: 27rem;
 }
 
 .section-text h1 {
@@ -552,7 +551,7 @@ a:active {
     display: flex;
     height: 17rem;
     width: 18rem;
-    margin: 3rem;
+    margin: 5rem;
 }
 
 .pentagon .icon-text {
@@ -589,14 +588,7 @@ a:active {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-left: 0;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    padding-top: 14rem;
-}
-
-.grid-list-results .pentagon+.pentagon {
-    margin-left: 8rem;
+	padding-top: 14rem;
 }
 
 .results-container {
@@ -610,7 +602,7 @@ a:active {
 .section-form {
     color: var(--color-black);
     position: relative;
-    top: 43rem;
+    top: 23rem;
     width: 37rem;
     margin-left: auto;
     margin-right: auto;
